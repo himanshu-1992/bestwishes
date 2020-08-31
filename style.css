@@ -47,7 +47,7 @@ label{
 	margin:0;
 }
 .banner {
-	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background:url('https://1.bp.blogspot.com/-CE5tjUL_ezw/X0tNn1bciEI/AAAAAAAADJU/7j1tO5p90_I3SU_2hEUVIYcM6OnzqmgGQCLcBGAsYHQ/s1600/banner.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:240px;
 	padding:45px 0 0 0;
@@ -71,7 +71,7 @@ label{
 	text-decoration: none;
     color: #fff;
     font-size: 17px;
-    background-color: #f3c500;
+    background-color: #e6bb00;
     padding: 10px 20px;
 }
 .banner a:hover {
@@ -274,6 +274,7 @@ span.active.uls-trigger {
     border: 8px solid #f3f2f2;
     padding: 40px;
     margin-bottom: 0px;
+	    box-shadow: 1px 1px 8px 4px #cee4e2;
 }
 .focus-grid p {
   margin: 20px 0 0px 0;
@@ -283,10 +284,10 @@ span.active.uls-trigger {
     line-height: 1.9em;
 }
 .focus-border{
-border:1px solid #e7eaed;
+border:2px solid #e7eaed;
 }
 .focus-layout{
-	background:#FBFBFB;
+	background:#eae8e8;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -294,8 +295,8 @@ border:1px solid #e7eaed;
 	-ms-transition:0.5s all;
 }
 .focus-layout{
-	margin: 5px;
-    padding: 20px 0;
+	margin: 10px;
+    padding: 10px 0;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -316,8 +317,8 @@ border:1px solid #e7eaed;
 	color:#4C4C4C;
 	font-size: 18px;
 	text-align:center;
-	height: 35px;
-	margin-top: 20px;
+	height: 15px;
+	margin-top: 5px;
 }
 .focus-layout:hover h4.clrchg {
     color: #fff;
@@ -335,8 +336,8 @@ border:1px solid #e7eaed;
 }
 .focus-image i {
     font-size: 40px;
-    color: #fff;
-    background: #dd0908;
+    color: #e3e6e5;
+    background: #117679;
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -842,11 +843,11 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 .biseller-column img {
     width: 100%;
 	position:relative;
-	border:2px solid #e8e4e4;
+	border:3px solid #e8e4e4;
 	box-shadow: 0 0 10px #F9F9F9;
 	-webkit-box-shadow: 0 0 10px #F9F9F9;
 	-moz-box-shadow: 0 0 10px #F9F9F9;
-	box-shadow: 0 0 10px #F9F9F9;
+	box-shadow: 1px 1px 8px 6px #bfbebe;
 }
 .biseller-column a {
     display: block;
@@ -858,7 +859,7 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 }
 .trend-ads h2 {
     color: #117679;
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -894,14 +895,14 @@ span.price {
     color: #FFF;
     display: block;
     font-size: 16px;
-    padding: 7px 15px;
+    padding: 7px 7px;
     position: absolute;
     right: 10px;
     text-align: right;
     top: 5px;
     z-index: 2;
     line-height: 1;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
     transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1010,9 +1011,9 @@ h4.footer-head {
     margin: 13px 0;
 }
 .footer-grid ul li a {
-    color: #979797;
+    color: #333232;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
 }
 span.hq {
     color: rgba(89, 194, 175, 0.79);
@@ -1166,18 +1167,18 @@ ul.location li:nth-child(2) {
     position: absolute;
     top: 50%;
     left: 0;
-    width: 44%;
+    width: 42%;
     height: 1px;
-    background: #545556;
+    background: #0babb1;
 }
 .footer-logo a:after {
     content: "";
     position: absolute;
     top: 50%;
     right: 0;
-    width: 44%;
+    width: 42%;
     height: 1px;
-    background: #545556;
+    background:#0babb1;
 }
 /*-- //footer --*/
 
@@ -4798,9 +4799,3 @@ label {
 		padding: 20px 0px;
 	}
 }
-
-
-
-
-
-
