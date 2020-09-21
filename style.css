@@ -1,8 +1,8 @@
 /*--
-Author: roomonrent
-Author URL: https://www.roomonrent.cf/
-License: 
-
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	padding:0;
@@ -54,6 +54,7 @@ label{
 }
 .main-banner {
 	background:url('https://1.bp.blogspot.com/-CE5tjUL_ezw/X0tNn1bciEI/AAAAAAAADJU/7j1tO5p90_I3SU_2hEUVIYcM6OnzqmgGQCLcBGAsYHQ/s1600/banner.png') no-repeat 0px 0px;
+	background:url('../images/bannerpp.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:400px;
 	padding:100px 0 0 0;
@@ -3848,6 +3849,18 @@ label {
 	}
 }
 @media (max-width: 640px){
+	
+	
+	
+	a.account {
+    float: left;
+    margin-top: 9px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #20c1a5;
+    padding: 6px 9px;
+    text-decoration: none;
+}
 	.biseller-column img {
     width: 100%;
     position: relative;
