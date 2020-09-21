@@ -1,8 +1,8 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+Author: roomonrent
+Author URL: https://www.roomonrent.cf/
+License: 
+
 --*/
 body{
 	padding:0;
@@ -47,13 +47,13 @@ label{
 	margin:0;
 }
 .banner {
-	background:url('../images/banner.jpg') no-repeat 0px 0px;
+	background:url('https://1.bp.blogspot.com/-CE5tjUL_ezw/X0tNn1bciEI/AAAAAAAADJU/7j1tO5p90_I3SU_2hEUVIYcM6OnzqmgGQCLcBGAsYHQ/s1600/banner.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:240px;
 	padding:45px 0 0 0;
 }
 .main-banner {
-	background:url('../images/banner.png') no-repeat 0px 0px;
+	background:url('https://1.bp.blogspot.com/-CE5tjUL_ezw/X0tNn1bciEI/AAAAAAAADJU/7j1tO5p90_I3SU_2hEUVIYcM6OnzqmgGQCLcBGAsYHQ/s1600/banner.png') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:400px;
 	padding:100px 0 0 0;
