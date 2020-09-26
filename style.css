@@ -3615,8 +3615,9 @@ label {
 		display:none;
 	}
 	.trend-ads h2 {
-		font-size: 35px;
-		margin-bottom: 30px;
+		font-size: 25px;
+		margin-bottom: 20px;
+		
 	}
 	.trending-ads {
 		padding: 40px 0 60px 0px;
