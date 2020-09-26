@@ -3852,8 +3852,27 @@ label {
 }
 @media (max-width: 640px){
 	
-
 	
+	
+	.post-ad-form input[type="button"] {
+    background: #0d6d6d;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 8px 8px;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    font-weight: 200;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+    margin-top: -1px;
+    float: right;
+}
 
 	.biseller-column img {
     width: 100%;
@@ -3946,10 +3965,10 @@ span.price {
 		margin: 6px 0 20px 0;
 	}
 	.footer-logo a {
-		font-size: 35px;
+		font-size: 19px;
 	}
 	h2.head {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.post-ad-form form label {
 		font-size: 13px;
@@ -3963,7 +3982,7 @@ span.price {
 	}
 	.post-ad-form input[type="submit"] {
 		padding: 8px 40px;
-		font-size: 19px;
+		font-size: 13px;
 	}
 	.work-section-head p {
 		font-size: 15px;
