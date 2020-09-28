@@ -892,11 +892,12 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 	-ms-transition:0.5s all;
 }
 .ad-info span {
-    display: block;
+   display: block;
     text-align: left;
     line-height: 16px;
-    color: #CECDCD;
-	margin-left:5px;
+    color: #0d7575;
+margin-left:5px;
+font-weight: bold;
 }
 span.price {
     background-color: rgba(89, 194, 175, 0.79);
