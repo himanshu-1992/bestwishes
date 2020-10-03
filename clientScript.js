@@ -1,88 +1,68 @@
-
-var scriptUrl = "https://script.google.com/macros/s/AKfycbwitIs2KK4HXdG7bQ0V-QRiDQGSBd58npRuusDjiTmtktTj1lfc/exec"
-
-//https://script.google.com/macros/s/AKfycbwitIs2KK4HXdG7bQ0V-QRiDQGSBd58npRuusDjiTmtktTj1lfc/exec
-
-//https://script.google.com/macros/s/AKfycbyZHXFhMCvM6sY62yUFqpYn9xRtI8emEZxbGrOssObdGax7b2w/exec
-
-//var scriptUrl = "https://script.google.com/macros/s/AKfycbyZHXFhMCvM6sY62yUFqpYn9xRtI8emEZxbGrOssObdGax7b2w/exec"
-
-                   //https://script.google.com/macros/s/AKfycbyZHXFhMCvM6sY62yUFqpYn9xRtI8emEZxbGrOssObdGax7b2w/exec
-
-//var scriptUrl = "https://script.google.com/macros/s/1_pmtomXDB3yfj-0VtNBhSlVY_pagsvmEtMdcKEq-RSU/exec"
-//https://script.google.com/macros/s/AKfycbyZHXFhMCvM6sY62yUFqpYn9xRtI8emEZxbGrOssObdGax7b2w/exec
-
-
-//https://script.google.com/macros/s/AKfycbyZHXFhMCvM6sY62yUFqpYn9xRtI8emEZxbGrOssObdGax7b2w/exec
-
-//https://script.google.com/macros/s/AKfycbzI5LqEpv0TJ6tUXj4ua4qvgecjZNZCssYXctHI-jrPTGNFqdE/exec
-
-//var scriptUrl = "https://script.google.com/macros/s/AKfycbzI5LqEpv0TJ6tUXj4ua4qvgecjZNZCssYXctHI-jrPTGNFqdE/exec"
-
-function readFiles() {
-    return new Promise(function (res, rej) {
-        let files = $('input:file')[0].files
-        let filesArr = [];
-        $(files).each(function (index) {
-            let reader = new FileReader();
-            let fileObj = {};
-            reader.onload = function () {
-                fileObj['fileContent'] = reader.result;
-                fileObj['filename'] = files[index].name;
-                filesArr.push(fileObj);
-
-                if (filesArr.length == files.length)
-                    return res(filesArr);
-            }
-            reader.readAsDataURL(files[index]);
-        });
-    });
+var _$_dd32=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x63\x72\x69\x70\x74\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x6D\x61\x63\x72\x6F\x73\x2F\x73\x2F\x41\x4B\x66\x79\x63\x62\x77\x69\x74\x49\x73\x32\x4B\x4B\x34\x48\x58\x64\x47\x37\x62\x51\x30\x56\x2D\x51\x52\x69\x44\x51\x47\x53\x42\x64\x35\x38\x6E\x70\x52\x75\x75\x73\x44\x6A\x69\x54\x6D\x74\x6B\x74\x54\x6A\x31\x6C\x66\x63\x2F\x65\x78\x65\x63","\x66\x69\x6C\x65\x73","\x69\x6E\x70\x75\x74\x3A\x66\x69\x6C\x65","\x6F\x6E\x6C\x6F\x61\x64","\x66\x69\x6C\x65\x43\x6F\x6E\x74\x65\x6E\x74","\x72\x65\x73\x75\x6C\x74","\x66\x69\x6C\x65\x6E\x61\x6D\x65","\x6E\x61\x6D\x65","\x70\x75\x73\x68","\x6C\x65\x6E\x67\x74\x68","\x72\x65\x61\x64\x41\x73\x44\x61\x74\x61\x55\x52\x4C","\x65\x61\x63\x68","\x64\x69\x73\x61\x62\x6C\x65\x64","\x70\x72\x6F\x70","\x69\x6E\x70\x75\x74\x3A\x62\x75\x74\x74\x6F\x6E","\x69\x64","\x61\x74\x74\x72","\x76\x61\x6C","\x69\x6E\x70\x75\x74\x3A\x74\x65\x78\x74","\x73\x6F\x6D\x65\x20\x65\x72\x72\x6F\x72\x20\x6F\x63\x63\x75\x72\x65\x64","\x65\x72\x72\x6F\x72","\x63\x61\x74\x63\x68","\x74\x6F\x74\x61\x6C\x46\x69\x6C\x65\x73","\x65\x72\x72\x6F\x72\x20\x6F\x63\x63\x75\x72\x65\x64","\x6C\x6F\x67","\x63\x6F\x6D\x70\x6C\x65\x74\x65\x64\x20\x63\x61\x6C\x6C","","\x59\x6F\x75\x72\x20\x41\x64\x20\x53\x75\x62\x6D\x69\x74\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6C\x6C\x79","\x74\x68\x65\x6E","\x50\x4F\x53\x54","\x61\x6A\x61\x78"];
+var scriptUrl=_$_dd32[0];//0
+function readFiles()
+{
+	return  new Promise(function(_0x887B,_0x8818)
+	{
+		let _0x8752=$(_$_dd32[2])[0][_$_dd32[1]];//3
+		let _0x87B5=[];//4
+		$(_0x8752)[_$_dd32[11]](function(_0x88DE)
+		{
+			let _0x8941= new FileReader();//6
+			let _0x8818={};//7
+			_0x8941[_$_dd32[3]]= function()
+			{
+				_0x8818[_$_dd32[4]]= _0x8941[_$_dd32[5]];_0x8818[_$_dd32[6]]= _0x8752[_0x88DE][_$_dd32[7]];_0x87B5[_$_dd32[8]](_0x8818);if(_0x87B5[_$_dd32[9]]== _0x8752[_$_dd32[9]])
+				{
+					return _0x887B(_0x87B5)
+				}
+				
+			}
+			;_0x8941[_$_dd32[10]](_0x8752[_0x88DE])
+		}
+		)
+	}
+	)
 }
-
-function submit() {
-    // disabling submit button;
-    $('input:button').prop('disabled', true);
-    let payload = {};
-    $('input:text').each(function (index) {
-        let propname = $(this).attr('id')
-        payload[propname] = $(this).val();
-    });
-
-    readFiles()
-        .then(function (result) {
-            payload['files'] = result;
-            payload['totalFiles'] = result.length;
-            postPayload(payload)
-                .then(function (result) {
-                    console.log("completed call");
-                    $('input:text').val('');
-                    $('input:file').val('');
-                    $('input:button').prop('disabled', false);
-                    alert("File Uploaded Successfully");
-                })
-                .catch(function (error) {
-                    console.log("error occured");
-                    $('input:button').prop('disabled', false);
-                })
-        }).catch(function (err) {
-            console.error("some error occured");
-            $('input:button').prop('disabled', false);
-        });
-
+function submit()
+{
+	$(_$_dd32[14])[_$_dd32[13]](_$_dd32[12],true);let _0x8752={};//24
+	$(_$_dd32[18])[_$_dd32[11]](function(_0x87B5)
+	{
+		let _0x8818=$(this)[_$_dd32[16]](_$_dd32[15]);//26
+		_0x8752[_0x8818]= $(this)[_$_dd32[17]]()
+	}
+	);readFiles()[_$_dd32[28]](function(_0x87B5)
+	{
+		_0x8752[_$_dd32[1]]= _0x87B5;_0x8752[_$_dd32[22]]= _0x87B5[_$_dd32[9]];postPayload(_0x8752)[_$_dd32[28]](function(_0x8752)
+		{
+			console[_$_dd32[24]](_$_dd32[25]);$(_$_dd32[18])[_$_dd32[17]](_$_dd32[26]);$(_$_dd32[2])[_$_dd32[17]](_$_dd32[26]);$(_$_dd32[14])[_$_dd32[13]](_$_dd32[12],false);alert(_$_dd32[27])
+		}
+		)[_$_dd32[21]](function(_0x8752)
+		{
+			console[_$_dd32[24]](_$_dd32[23]);$(_$_dd32[14])[_$_dd32[13]](_$_dd32[12],false)
+		}
+		)
+	}
+	)[_$_dd32[21]](function(_0x8752)
+	{
+		console[_$_dd32[20]](_$_dd32[19]);$(_$_dd32[14])[_$_dd32[13]](_$_dd32[12],false)
+	}
+	)
 }
-
-function postPayload(payload) {
-    return new Promise(function (resolve, reject) {
-        $.ajax({
-            type: "POST",
-            url: scriptUrl,
-            data: payload,
-            success: function (result) {
-                resolve(result);
-            },
-            error: function (error) {
-                reject(error);
-            }
-        });
-    });
+function postPayload(_0x8752)
+{
+	return  new Promise(function(_0x8818,_0x87B5)
+	{
+		$[_$_dd32[30]]({type:_$_dd32[29],url:scriptUrl,data:_0x8752,success:function(_0x8752)
+		{
+			_0x8818(_0x8752)
+		}
+		,error:function(_0x8752)
+		{
+			_0x87B5(_0x8752)
+		}
+		})
+	}
+	)
 }
