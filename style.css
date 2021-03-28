@@ -3626,10 +3626,10 @@ label {
 	}
 	.col-md-3.biseller-column{
 		width:33.333%;
-		float:left;
+		float: right;
 	}
 	.col-md-3.biseller-column:nth-child(4){
-		display:none;
+		
 	}
 	.trend-ads h2 {
 		font-size: 19px;
@@ -4134,7 +4134,7 @@ span.price {
 		width:50%;
 	}
 	.col-md-3.biseller-column:nth-child(3){
-		display:none;
+		
 	}
 	.col-md-3.footer-grid {
 		width: 100%;
