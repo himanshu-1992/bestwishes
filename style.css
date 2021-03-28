@@ -862,7 +862,7 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 	position: absolute;
 	cursor: pointer;
 	z-index: 100;
-	display:none;
+	/* display: none; */
 }
 .biseller-column img {
     width: 100%;
