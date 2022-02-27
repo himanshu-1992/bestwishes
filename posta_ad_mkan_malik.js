@@ -1,4 +1,4 @@
-var scriptUrl = "https://script.google.com/macros/s/AKfycbwDQ_wJlxmrRiNxZKZrJ15FJ5RvgV3FGesdskeSBwleTidkep1kVeWLw9UCGgghlsANow/exec"
+var scriptUrl = "https://script.google.com/macros/s/AKfycbwPmiJUlMKUr2y47ITvUX2wuLGwQVhHQB5BADH_dSJF8hdiHtfOYLHhXRMvv9ZeK5I4AA/exec"
 function readFiles() {
     return new Promise(function (res, rej) {
         let files = $('input:file')[0].files
