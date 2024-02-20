@@ -872,6 +872,20 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 	-webkit-box-shadow: 0 0 10px #F9F9F9;
 	-moz-box-shadow: 0 0 10px #F9F9F9;
 	box-shadow: 1px 1px 8px 6px #bfbebe;
+	 height: 200px;
+    border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+}
+
+.biseller-column img {
+    width: 100%;
+    position: relative;
+    border: 3px solid #e8e4e4;
+    box-shadow: 0 0 10px #F9F9F9;
+    -webkit-box-shadow: 0 0 10px #F9F9F9;
+    -moz-box-shadow: 0 0 10px #F9F9F9;
+    box-shadow: 1px 1px 8px 3px #bfbebe;
+   
 }
 .biseller-column a {
     display: block;
@@ -933,6 +947,7 @@ span.price {
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
+	border-radius: 10px 3px 0px 50px;
 }
 .biseller-column:hover span.price{
 	background:rgba(243, 197, 0, 0.79);
@@ -2444,6 +2459,8 @@ border-bottom: 1px solid #e5e3db;
 }
 .featured-ad-left img {
     width: 100%;
+    border-radius: 8px;
+    border: 3px solid #fbeeb7;
 }
 .featured-ad-right {
 	float:left;
@@ -2696,14 +2713,15 @@ div#myTabContent {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-#container .list li img{
-	float: left;
-    margin-right: 0;
+#container .list li img {
+    float: left;
+    margin-right: 8px;
     padding-bottom: 0;
-    border: 1px solid #D1E0EE;
+    border: 3px solid #ffffff;
     padding: 0;
-    width: 20%;
+    width: 13%;
     background-color: #fff;
+    border-radius: 12px;
 }
 #container ul.list li.alt{ background:gray; }
 #container .list li p {
@@ -3894,17 +3912,8 @@ label {
     float: right;
 }
 
-	.biseller-column img {
-    width: 100%;
-    position: relative;
-    border: 3px solid #e8e4e4;
-    box-shadow: 0 0 10px #F9F9F9;
-    -webkit-box-shadow: 0 0 10px #F9F9F9;
-    -moz-box-shadow: 0 0 10px #F9F9F9;
-    box-shadow: 1px 1px 8px 6px #bfbebe;
-    height: 160px;
-}
-	
+
+
 	
 span.price {
    
@@ -4882,4 +4891,24 @@ span.price {
 	.category {
 		padding: 20px 0px;
 	}
+}
+
+
+
+.ad-info {
+    background-color: aliceblue;
+    border-radius: 0px 0px 10px 10px;
+    border: 3px solid #F5F5F5;
+	box-shadow: 1px 1px 8px 3px #bfbebe;
+}
+
+
+.ad-info2 {
+    background-color: #fff9d3;
+    border-radius: 0px 0px 10px 10px;
+    border: 3px solid #F5F5F5;
+    box-shadow: 1px 1px 8px 3px #bfbebe;
+    padding: 12px;
+    color: #148b6b;
+    font-weight: 500;
 }
