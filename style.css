@@ -867,7 +867,6 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 .biseller-column img {
     width: 100%;
 	position:relative;
-	border:3px solid #e8e4e4;
 	box-shadow: 0 0 10px #F9F9F9;
 	-webkit-box-shadow: 0 0 10px #F9F9F9;
 	-moz-box-shadow: 0 0 10px #F9F9F9;
@@ -877,16 +876,15 @@ ul#flexiselDemo3.nbs-flexisel-nav-left, ul#flexiselDemo3.nbs-flexisel-nav-right 
 	cursor: pointer;
 }
 
-.biseller-column img {
+/* .biseller-column img {
     width: 100%;
     position: relative;
-    border: 3px solid #e8e4e4;
     box-shadow: 0 0 10px #F9F9F9;
     -webkit-box-shadow: 0 0 10px #F9F9F9;
     -moz-box-shadow: 0 0 10px #F9F9F9;
     box-shadow: 1px 1px 8px 3px #bfbebe;
    
-}
+}*/
 .biseller-column a {
     display: block;
 	padding-top: 5px;
